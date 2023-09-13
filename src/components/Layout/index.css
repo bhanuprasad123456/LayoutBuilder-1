@@ -1,0 +1,24 @@
+/* Write your CSS here */
+/* Write your CSS here */
+/* index.css */
+
+.layout-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 20px; /* Add padding or adjust as needed */
+}
+
+.responsive-container {
+  max-width: 1200px; /* Set your desired maximum width */
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
